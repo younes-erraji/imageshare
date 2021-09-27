@@ -1,0 +1,27 @@
+include ../base/head
+include ../base/navbar
+include ../base/footer
+doctype html
+html
+  head
+    +head('sign in', 'sign-in.css')
+  body
+    +navbar
+    form.main
+      h2 sign in to your <strong>images</strong>hare account
+      button
+        img(src="./assets/icons/facebook.jpg" alt='facebook')
+        |continue with <strong>Facebook</strong>
+      button
+        img(src="./assets/icons/google.jpg" alt='google')
+        |continue with <strong>Google</strong>
+      hr
+      span Or
+      input(type='text' name='username' placeholder='username')
+      input(type='password' name='password' placeholder='password')
+      input(type='submit' value='sign in')
+      a(href='./reset-password.html') Forgot password?
+      hr
+      span not a member yet? 
+        a(href="./sign-up.html") sign up
+    +footer

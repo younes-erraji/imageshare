@@ -1,0 +1,3 @@
+sass --watch "C:\Users\Younes\Desktop\Workspace\imageshare\workflow\sass":"C:\Users\Younes\Desktop\Workspace\imageshare\dist\assets\styles"
+
+pug "C:\Users\Younes\Desktop\Workspace\imageshare\workflow\pug" -w --pretty -o "C:\Users\Younes\Desktop\Workspace\imageshare\dist"
