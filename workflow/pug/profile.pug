@@ -1,0 +1,112 @@
+include ../base/head
+include ../base/navbar
+doctype html
+html
+  head
+    +head('profile', 'profile.css')
+  body
+    +navbar
+    .content
+      .container
+        section.card
+          .option
+            i(class='fa fa-three-dots')
+          img(src="./assets/images/user.png")
+          h2 @amine_tissiliguit
+          form: button follow
+          h3 bio
+          p.bio to know and not to do, is not yet to know.
+          hr
+          .followers
+            span followers
+            strong 12K
+          .following
+            span following
+            strong 609
+          .posts
+            span posts
+            strong 6
+        form.publications
+          h2 images posted by <strong>Amine Tissilguit</strong>
+          ul
+            li
+              section: img(src='./assets/images/studio/00.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/1.webp')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/06.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/09.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/B.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/1.webp')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/07.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/09.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K
+            li
+              section: img(src='./assets/images/studio/06.jpg')
+              .react
+                .likes
+                  button.like: i(class='fa fa-heart')
+                  span 468
+                .downloads
+                  button.download: i(class='fa fa-download')
+                  span 78K

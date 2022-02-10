@@ -1,0 +1,18 @@
+@import "./utilities/vars";
+@import "./components/buttons";
+@import "./components/inputs";
+@import "./components/icon";
+@import "./utilities/navbar";
+@import "./utilities/footer";
+main {
+  width: 440px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 48px);
+  p {
+    line-height: 1.8;
+    font-size: 22px;
+    margin: $main-padding 0;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin flexable($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin prefix($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+@mixin prefix-values($property, $value) {
+  #{$property}: -webkit-#{$value};
+  #{$property}: -moz-#{$value};
+  #{$property}: -o-#{$value};
+  #{$property}: $value;
+}

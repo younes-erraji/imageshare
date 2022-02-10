@@ -1,0 +1,16 @@
+%submit {
+  border-radius: $rounded;
+  font-size: 18px;
+  border: none;
+  padding: 8px 14px;
+  color: $white;
+  cursor: pointer;
+}
+%button {
+  padding: 8px 14px;
+  color: $grey-color;
+  background-color: $white;
+  cursor: pointer;
+  border-radius: 14px;
+  border: 1px solid $border-color;
+}

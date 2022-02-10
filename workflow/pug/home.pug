@@ -1,0 +1,80 @@
+include ../base/head
+include ../base/effect
+include ../base/upButton
+include ../base/showMore
+doctype html
+html
+  head
+    +head('home', 'style.css')
+  body
+    header
+      nav
+        .container
+          h1 <strong>images</strong>hare
+          ul.links
+            li: a(href='./home.html') Home
+            li: a(href='./about-us.html') about us
+            li: a(href='./sign-in.html') sign in
+            li: a(href='./sign-up.html') sign up
+      form.search
+        h2 More than 1,000,000 images
+        div
+          input(type='text' placeholder='search for free photos..')
+          button: i(class='fa fa-search')
+        span ex : background, wallpapers...
+    .trendy
+      .container
+        h3 trendy images
+        button.trendy-button.active this month
+        button.trendy-button last month
+        .clearfix
+        ul.studio
+          li
+            img(src='./assets/images/studio/00.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/1.webp')
+            +hover
+          li
+            img(src='./assets/images/studio/06.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/09.jpg')
+            +hover
+          li
+            img(src='./assets/images/B.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/0.jfif')
+            +hover
+          li
+            img(src='./assets/images/studio/02.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/05.png')
+            +hover
+          li
+            img(src='./assets/images/studio/08.jpg')
+            +hover
+          li
+            img(src='./assets/images/logo.png')
+            +hover
+          li
+            img(src='./assets/images/studio/01.png')
+            +hover
+          li
+            img(src='./assets/images/studio/03.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/04.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/07.jpg')
+            +hover
+          li
+            img(src='./assets/images/studio/06.jpg')
+            +hover
+        +upButton
+      +showMore
+    script(src='./assets/scripts/script.js')
+    script(src='./assets/scripts/active.js')
